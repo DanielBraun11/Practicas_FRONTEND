@@ -44,7 +44,8 @@ Se utilizan hooks de React para la gestión del estado y efectos:
 - Manejo de errores en la petición
 - Paginación mediante un botón que carga más personajes
 - Diseño responsive que muestra varios personajes por fila
-
+- 
+## Uso de Quicktype para tipar a partir de JSON
 <img width="1057" height="617" alt="image" src="https://github.com/user-attachments/assets/33defd8a-1cf2-4b0c-bf30-e6d3ae8c7a9d" />
 
 ## API utilizada
@@ -53,4 +54,4 @@ https://swapi.dev/api/people/
 
 ## Autor
 
-Daniel Braun
+Daniel Braun Sandino
