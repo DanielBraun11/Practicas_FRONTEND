@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+
+  /* Fondo blanco/gris muy claro */
+  background-color: #f5f5f5;
+  color: #333;
+}
+
+/* GRID: aquí está la separación real entre columnas y filas */
+.gridContainer {
+  display: grid;
+
+  /* MÁS hueco blanco entre cards */
+  column-gap: 40px;  /* separación entre columnas */
+  row-gap: 40px;     /* separación entre filas */
+
+  padding: 40px;
+
+  /* 3 columnas cuando quepa; baja a 2/1 según pantalla */
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+/* PAGINACIÓN */
+.paginationContainer {
+  display: flex;
+  justify-content: center;
+
+  /* hueco con respecto al grid */
+  padding: 10px 0 50px 0;
+}
+
+.paginationContainer button {
+  padding: 12px 22px;
+  border-radius: 10px;
+  border: none;
+  background-color: #333;
+  color: white;
+  cursor: pointer;
+}
+
+.paginationContainer button:hover {
+  background-color: #555;
+}
+
+.paginationContainer button:disabled {
+  background-color: #aaa;
+  cursor: not-allowed;
+}
