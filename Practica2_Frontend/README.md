@@ -52,6 +52,21 @@ Componentes reutilizables como la tarjeta de cada país.
 
 Define los tipos de TypeScript utilizados para estructurar los datos que devuelve la API.
 
+# Navegación de la aplicación
+## Página principal /
+Muestra un listado de países con su bandera y nombre.
+Cada país aparece como una tarjeta clickable.
+
+## Página de país /country/[name]
+Muestra información detallada del país seleccionado:
+
+- Nombre oficial
+- Capital
+- Subregión
+- Lenguajes
+- Moneda
+
+Incluye un botón para volver a la página anterior.
 
 
 
