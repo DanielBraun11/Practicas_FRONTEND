@@ -27,29 +27,7 @@ http://localhost:3000
 ```
 
 ## Estructura del proyecto
-src/
-├── api-lib/
-│   ├── api.ts
-│   └── country.ts
-│
-├── app/
-│   ├── components/
-│   │   ├── countrycard.tsx
-│   │   └── countrycard.css
-│   │
-│   ├── country/[name]/
-│   │   ├── page.tsx
-│   │   └── page.css
-│   │
-│   ├── page.tsx
-│   ├── page.css
-│   ├── layout.tsx
-│   ├── globals.css
-│   └── favicon.ico
-│
-├── types/
-│   ├── country.ts
-│   └── index.ts
+<img width="293" height="477" alt="imagen" src="https://github.com/user-attachments/assets/7ab8ee17-33bc-4eb4-999d-76a0f43b808d" />
 
 
 ## Descripción de las carpetas
@@ -73,6 +51,7 @@ Componentes reutilizables como la tarjeta de cada país.
 ### types
 
 Define los tipos de TypeScript utilizados para estructurar los datos que devuelve la API.
+
 
 
 
