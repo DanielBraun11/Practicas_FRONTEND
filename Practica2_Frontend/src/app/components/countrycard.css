@@ -1,0 +1,33 @@
+.countryBox button {
+    all: unset;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column; /* bandera arriba, nombre abajo */
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 16px;
+    width: 100%;
+    min-height: 130px;
+    text-align: center;
+    background-color: #ffffff;
+    border-radius: 10px;
+    border: 1px solid #d1d5db;
+    color: #1a1a2e;
+    font-weight: 600;
+    font-size: 0.95rem;
+    box-sizing: border-box;
+    transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+}
+
+.countryBox button:hover {
+    transform: scale(1.03);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+    border-color: #63f163;
+}
+
+.countryBox button img {
+    display: block;
+    width: 42px;
+    height: auto;
+}
